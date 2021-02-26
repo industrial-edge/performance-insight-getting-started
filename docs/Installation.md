@@ -102,7 +102,7 @@ Hint: An aspect can include several variables, but each variable can only be ass
 
 In your IED Web UI open the app Performance Insight.
 
-![performance_insight_icon](graphics/Performance_Insight_Icon.PNG)
+![performance_insight_icon](graphics/Performance_Insight_Icon.png)
 
 Hint: When opening the application for the first time a lincese message might pop up. Just accept the message and start using the application
 
@@ -110,30 +110,30 @@ Hint: When opening the application for the first time a lincese message might po
 
 On the main panel the dashboard overview will show the option to create a new dashboard (operating at the highest hirerchical level configured in data service)
 
-![performance_insight_create_dashboard](graphics/Performance_Insight_Create_Dashboard.PNG)
+![performance_insight_create_dashboard](graphics/Performance_Insight_Create_Dashboard.png)
 
 Insert a dashboard name and select the time frame that should be display per default for all signals
 
-![performance_insight_config_dashboard](graphics/Performance_Insight_Config_Dashboard.PNG)
+![performance_insight_config_dashboard](graphics/Performance_Insight_Config_Dashboard.png)
 
 ### Configure widgets
 
 The first widget to be added is a single value display (with Min, Avg and Max Values) for the produced bottles (with good and bad quality)
 
-![performance_insight_value_widget](graphics/Performance_Insight_Value_Widget.PNG)
+![performance_insight_value_widget](graphics/Performance_Insight_Value_Widget.png)
 
 The second widget is a gauge display for the actual tank level
 
-![performance_insight_gauge_widget](graphics/Performance_Insight_Gauge_Widget.PNG)
+![performance_insight_gauge_widget](graphics/Performance_Insight_Gauge_Widget.png)
 
 The third widget is a diagram display for the actual tank temperature
 
-![performance_insight_diagram_widget](graphics/Performance_Insight_Diagram_Widget.PNG)
+![performance_insight_diagram_widget](graphics/Performance_Insight_Diagram_Widget.png)
 
 The last widget is a calculated KPI for the production quality
 
-![performance_insight_kpi_calculation](graphics/Performance_Insight_KPI_Calculation.PNG)
+![performance_insight_kpi_calculation](graphics/Performance_Insight_KPI_Calculation.png)
 
 This quality production KPI is shwon using a gauge widget with warning and alarm thresholds
 
-![performance_insight_kpi_gauge_widget](graphics/Performance_Insight_KPI_Gauge_Widget.PNG)
+![performance_insight_kpi_gauge_widget](graphics/Performance_Insight_KPI_Gauge_Widget.png)
