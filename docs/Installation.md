@@ -104,7 +104,7 @@ In your IED Web UI open the app Performance Insight.
 
 ![performance_insight_icon](graphics/Performance_Insight_Icon.png)
 
-Hint: When opening the application for the first time a lincese message might pop up. Just accept the message and start using the application
+Hint: When opening the application for the first time a lincese message might pop up (no relationship to IE Hub). Just accept the message and start using the application
 
 ### Configure a dashboard
 
