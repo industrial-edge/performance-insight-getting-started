@@ -79,13 +79,11 @@ On the left bar click the icon "Assets & Connectivity". For the "edge" asset you
 
 Choose "Create first variable" or "Add variable" on the right side to add tags.
 
+The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
+
 ![data_service_assets](graphics/Data_Service_Assets.PNG)
 
 ![data_service_variable](graphics/Data_Service_Variable.PNG)
-
-To change the storage time period, klick on the link below the asset:
-
-![data_service_retention](graphics/Data_Service_Retention.PNG)
 
 ## Configure an aspect
 
@@ -117,22 +115,38 @@ Insert a dashboard name and select the time frame that should be display per def
 
 ## Configure widgets
 
-The first widget to be added is a single value display (with Min, Avg and Max Values) for the produced bottles (with good and bad quality)
+When configuring a widget, Performance Insight offers the following types:
 
-![performance_insight_value_widget](graphics/Performance_Insight_Value_Widget.png)
+![performance_insight_widgets](graphics/Performance_Insight_Widgets.png)
 
-The second widget is a gauge display for the actual tank level
+The standard widget configuration has to define some details
+
+![performance_insight_define_details](graphics/Performance_Insight_Define_Details.png)
+
+The following steps are: select parameters and define display options 
+
+![performance_insight_select_parameter](graphics/Performance_Insight_Select_Parameter.png)
+
+![performance_insight_general_display](graphics/Performance_Insight_General_Display.png)
+
+![performance_insight_gauge_display](graphics/Performance_Insight_Gauge_Display.png)
+
+The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
 ![performance_insight_gauge_widget](graphics/Performance_Insight_Gauge_Widget.png)
 
-The third widget is a diagram display for the actual tank temperature
+Several widgets have been configured as single value display (with Min, Avg and Max Values)
+
+![performance_insight_value_widget](graphics/Performance_Insight_Value_Widget.png)
+
+The last widget is a diagram display for the actual tank level
 
 ![performance_insight_diagram_widget](graphics/Performance_Insight_Diagram_Widget.png)
 
-The last widget is a calculated KPI for the production quality
+In order to calculate the production quality a KPI type has been defined
 
 ![performance_insight_kpi_calculation](graphics/Performance_Insight_KPI_Calculation.png)
 
-This quality production KPI is shwon using a gauge widget with warning and alarm thresholds
+This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
 
 ![performance_insight_kpi_gauge_widget](graphics/Performance_Insight_KPI_Gauge_Widget.png)
