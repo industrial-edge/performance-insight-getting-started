@@ -6,7 +6,6 @@
 - [Configure Data Service](#configure-data-service)
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
-  - [Configure an aspect](#configure-an-aspect)
 - [Configure Performance Insight](#configure-performance-insight)
     - [Configure a dashboard](#configure-a-dashboard)
     - [Configure widgets](#configure-widgets)
@@ -84,16 +83,6 @@ The required tank application variables are: tank level, tank temperature, produ
 ![data_service_assets](graphics/Data_Service_Assets.PNG)
 
 ![data_service_variable](graphics/Data_Service_Variable.PNG)
-
-## Configure an aspect
-
-Choose the register "Aspects" to create a new aspect by clicking "Create first aspect" or "Add aspect".
-
-![data_service_aspect](graphics/Data_Service_Aspect.PNG)
-
-Hint: An aspect can include several variables, but each variable can only be assigned to one aspect.
-
-![data_service_aspects](graphics/Data_Service_Aspects.PNG)
 
 # Configure Performance Insight
 
