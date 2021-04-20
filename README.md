@@ -21,18 +21,17 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 ### Overview
 
 This document describes how to get the data from a PLC into the performance insight app. The data flow goes from the S7 connector app, going through the databus app and 
-being stored as time-series with the data service app.
-The performance insight app is extremely dependent on a properly configured data service app. The complete configuration is relevant for the proper data visualization and storage.
+being stored as time-series with the data service app. The performance insight app is extremely dependent on a properly configured data service app.
 
-![overview](docs/graphics/Overview.PNG)
+![overview](docs/graphics/overview.png)
 
 ### General task
 
 The example reads data from a PLC via the S7 Connector (OPC UA).
-The data is published on the IE Databus, where the Data Service can collect the needed shopfloor data.
-First an adapter for providing the datapoints must be assigned and configured.
-Afterwards the data structure can be modeled using assets and aspects (see data service "how to" for further explanation)
-This data is collected, saved for individual time period and transfered for further processing.
+The data is published on the IE Databus. The Data Service monitors the bus and collect the shopfloor data.
+First an adapter, providing datapoints must be assigned and configured.
+Afterwards the data structure can be modeled using assets and aspects. See [data-service-how-to](https://github.com/industrial-edge/data-service-configure-s7-adapter-to-collect-data) for further explanation.
+This data is collected and saved with individual time periods.  and transfered for further processing.
 
 ## Requirements
 
@@ -77,7 +76,7 @@ You can find the further information about the following steps in the [docs](doc
 ## Usage
 
 Once the Data Service app is configured and data is availalbe from a running PLC, process data can be collected.
-Performance insight visualizes giving data insights (KPIs, metrics, etc.) 
+Performance insight visualizes this data and gives data insights (KPIs, metrics, etc.) 
 
 ## Documentation
 
