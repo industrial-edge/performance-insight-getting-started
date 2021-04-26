@@ -23,7 +23,9 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 This document describes how to get the data from a PLC into the performance insight app. The data flow goes from the S7 connector app, going through the databus app and 
 being stored as time-series with the data service app. The performance insight app is extremely dependent on a properly configured data service app.
 
-![overview](docs/graphics/Overview.PNG)
+<kbd>
+<img src="docs/graphics/Overview.PNG" />
+</kbd>
 
 ### General task
 
@@ -49,9 +51,9 @@ This data is collected and saved with individual time periods.  and transfered f
 
 ### Used components
 
-- Industrial Edge Management (IEM) V1.1.14 (OS) V1.1.0.39
+- Industrial Edge Management (IEM) V1.1.14 (OS) V1.1.0-39
   - IE Databus V1.1.15
-  - IE Databus Configurator V1.1.24
+  - IE Dat.bus Configurator V1.1.24
   - S7 Connector V1.1.23
   - S7 Connector Configurator V1.1.24
   - Data Service V1.1.3
@@ -76,7 +78,7 @@ You can find the further information about the following steps in the [docs](doc
 ## Usage
 
 Once the Data Service app is configured and data is availalbe from a running PLC, process data can be collected.
-Performance insight visualizes this data and gives data insights (KPIs, metrics, etc.) 
+Performance Insight visualizes this data and gives Iata insights (KPIs, metrics, etc.) 
 
 ## Documentation
 
