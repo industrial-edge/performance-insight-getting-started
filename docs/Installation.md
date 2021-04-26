@@ -26,9 +26,9 @@ In your IEM open the Databus and launch the configurator.
 Add a user with this topic:
 `"ie/#"`
 
-![ie_databus_user](graphics/IE_Databus_User.PNG)
+<p align="center"><kbd><img src="graphics/IE_Databus_User.PNG" /></kbd></p>
 
-![ie_databus](graphics/IE_Databus.PNG)
+<p align="center"><kbd><img src="graphics/IE_Databus.PNG" /></kbd></p>
 
 Deploy the configuration.
 
@@ -38,15 +38,15 @@ In your IEM open the S7 Connector and launch the configurator.
 
 Add a data source:
 
-![S7 Connector Data Source](graphics/S7_Connector_Data_Source.PNG)
+<p align="center"><kbd><img src="graphics/S7_Connector_Data_Source.PNG" /></kbd></p>
 
 Add needed tags:
 
-![s7_connector_config](graphics/S7_Connector_Configuration.PNG)
+<p align="center"><kbd><img src="graphics/S7_Connector_Configuration.PNG" /></kbd></p>
 
 Edit the settings:
 
-![s7_connector_settings](graphics/S7_Connector_Settings.PNG)
+<p align="center"><kbd><img src="graphics/S7_Connector_Settings.PNG" /></kbd></p>
 
 Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
@@ -64,11 +64,11 @@ On the left bar click the icon "Adapters" and choose the SIMATIC S7 Connector (M
 
 Click the edit icon on the right to open the adapter configuration.
 
-![data_service_adapter](graphics/Data_Service_Adapter.PNG)
+<p align="center"><kbd><img src="graphics/Data_Service_Adapter.PNG" /></kbd></p>
 
 Add the missing entries for username and password (again "edge"/"edge") and save it.
 
-![data_service_adapter_config](graphics/Data_Service_Adapter_Config.PNG)
+<p align="center"><kbd><img src="graphics/Data_Service_Adapter_Config.PNG" /></kbd></p>
 
 Hint: Sometimes the Data Service app must be restarted, to take over the adapter changes.
 
@@ -80,15 +80,15 @@ Choose "Create first variable" or "Add variable" on the right side to add tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
-![data_service_assets](graphics/Data_Service_Assets.PNG)
+<p align="center"><kbd><img src="graphics/Data_Service_Assets.PNG" /></kbd></p>
 
-![data_service_variable](graphics/Data_Service_Variable.PNG)
+<p align="center"><kbd><img src="graphics/Data_Service_Variable.PNG" /></kbd></p>
 
 # Configure Performance Insight
 
 In your IED Web UI open the app Performance Insight.
 
-![performance_insight_icon](graphics/Performance_Insight_Icon.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Icon.png" /></kbd></p>
 
 Hint: When opening the application for the first time a lincese message might pop up (no relationship to IE Hub). Just accept the message and start using the application
 
@@ -96,46 +96,46 @@ Hint: When opening the application for the first time a lincese message might po
 
 On the main panel the dashboard overview will show the option to create a new dashboard (operating at the highest hirerchical level configured in data service)
 
-![performance_insight_create_dashboard](graphics/Performance_Insight_Create_Dashboard.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Create_Dashboard.png" /></kbd></p>
 
 Insert a dashboard name and select the time frame that should be display per default for all signals
 
-![performance_insight_config_dashboard](graphics/Performance_Insight_Config_Dashboard.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Config_Dashboard.png" /></kbd></p>
 
 ## Configure widgets
 
 When configuring a widget, Performance Insight offers the following types:
 
-![performance_insight_widgets](graphics/Performance_Insight_Widgets.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Widgets.png" /></kbd></p>
 
 The standard widget configuration has to define some details
 
-![performance_insight_define_details](graphics/Performance_Insight_Define_Details.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Define_Details.png" /></kbd></p>
 
 The following steps are: select parameters and define display options 
 
-![performance_insight_select_parameter](graphics/Performance_Insight_Select_Parameter.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Select_Parameter.png" /></kbd></p>
 
-![performance_insight_general_display](graphics/Performance_Insight_General_Display.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_General_Display.png" /></kbd></p>
 
-![performance_insight_gauge_display](graphics/Performance_Insight_Gauge_Display.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Gauge_Display.png" /></kbd></p>
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
-![performance_insight_gauge_widget](graphics/Performance_Insight_Gauge_Widget.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Gauge_Widget.png" /></kbd></p>
 
 Several widgets have been configured as single value display (with Min, Avg and Max Values)
 
-![performance_insight_value_widget](graphics/Performance_Insight_Value_Widget.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Value_Widget.png" /></kbd></p>
 
 The last widget is a diagram display for the actual tank level
 
-![performance_insight_diagram_widget](graphics/Performance_Insight_Diagram_Widget.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_Diagram_Widget.png" /></kbd></p>
 
 In order to calculate the production quality a KPI type has been defined
 
-![performance_insight_kpi_calculation](graphics/Performance_Insight_KPI_Calculation.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_KPI_Calculation.png" /></kbd></p>
 
 This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
 
-![performance_insight_kpi_gauge_widget](graphics/Performance_Insight_KPI_Gauge_Widget.png)
+<p align="center"><kbd><img src="graphics/Performance_Insight_KPI_Gauge_Widget.png" /></kbd></p>
