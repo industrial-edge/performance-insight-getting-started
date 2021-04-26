@@ -23,11 +23,9 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 This document describes how to get the data from a PLC into the Performance Insight app. The data flow goes from the S7 connector app, going through the databus app and 
 being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
 
-<p align="center">
-<kbd>
-<img src="docs/graphics/Overview.PNG" />
-</kbd>
-</p>
+
+<p align="center"><img src="docs/graphics/Overview.PNG" /></p>
+
 
 ### General task
 
