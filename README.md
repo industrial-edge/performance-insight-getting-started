@@ -20,11 +20,11 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 
 ### Overview
 
-This document describes how to get the data from a PLC into the performance insight app. The data flow goes from the S7 connector app, going through the databus app and 
-being stored as time-series with the data service app. The performance insight app is extremely dependent on a properly configured data service app.
+This document describes how to get the data from a PLC into the Performance Insight app. The data flow goes from the S7 connector app, going through the databus app and 
+being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
 
 <kbd>
-<img src="docs/graphics/Overview.PNG" />
+<img align="middle" src="docs/graphics/Overview.PNG" />
 </kbd>
 
 ### General task
@@ -33,7 +33,7 @@ The example reads data from a PLC via the S7 Connector (OPC UA).
 The data is published on the IE Databus. The Data Service monitors the bus and collect the shopfloor data.
 First an adapter, providing datapoints must be assigned and configured.
 Afterwards the data structure can be modeled using assets and aspects. See [data-service-how-to](https://github.com/industrial-edge/data-service-configure-s7-adapter-to-collect-data) for further explanation.
-This data is collected and saved with individual time periods.  and transfered for further processing.
+This data is collected, saved for individual time periods and transfered for further processing.
 
 ## Requirements
 
