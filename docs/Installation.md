@@ -9,6 +9,7 @@
 - [Configure Performance Insight](#configure-performance-insight)
     - [Configure a dashboard](#configure-a-dashboard)
     - [Configure widgets](#configure-widgets)
+    - [Configure KPIs](#configure-KPIs)
 		
 # Configure PLC Connection
 
@@ -118,6 +119,8 @@ The following steps are: select parameters and define display options
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_General_Display.png" /></kbd></p>
 
+In case of a Gauge Widget an additional dialog will appear with the display boundaries parametrization
+
 <p align="center"><kbd><img src="graphics/Performance_Insight_Gauge_Display.png" /></kbd></p>
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
@@ -128,9 +131,25 @@ Several widgets have been configured as single value display (with Min, Avg and 
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_Value_Widget.png" /></kbd></p>
 
-The last widget is a diagram display for the actual tank level
+Another configured widget is a diagram display for the actual tank level
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_Diagram_Widget.png" /></kbd></p>
+
+The last used widget on this application example is a Gantt diagram. The first step is to configure a status mapping
+
+<p align="center"><kbd><img src="graphics/performance-insight-gantt-status-mapping.png" /></kbd></p>
+
+Afterwards the Widget has to be added. The Gantt Overview will be displayed on the dashboard
+
+<p align="center"><kbd><img src="graphics/performance-insight-gantt-overview.png" /></kbd></p>
+
+By clicking the detailed view icon, a detailed Gantt diagram will be shown (more visible data)
+
+<p align="center"><kbd><img src="graphics/performance-insight-gantt-detail-view.png" /></kbd></p>
+
+## Configure KPIs
+
+Additional values (also named KPIs) can be calculated out of the existing variables.
 
 In order to calculate the production quality a KPI type has been defined
 
