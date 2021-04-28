@@ -72,8 +72,7 @@ The used TIA Portal project can be found in the [miscellenous repository](https:
 
 You can find the further information about the following steps in the [docs](docs/Installation.md)
 - Configure PLC Connection (Databus, S7 Connector)
-- Configure Data Service
-- Configure Performance Insight 
+- Configure Configure Data Service
 
 ## Usage
 
