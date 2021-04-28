@@ -33,7 +33,7 @@ The example reads data from a PLC via the S7 Connector (OPC UA).
 The data is published on the IE Databus. The Data Service monitors the bus and collect the shopfloor data.
 First an adapter, providing datapoints must be assigned and configured.
 Afterwards the data structure can be modeled using assets and aspects. See [data-service-how-to](https://github.com/industrial-edge/data-service-configure-s7-adapter-to-collect-data) for further explanation.
-This data is collected, saved for individual time periods and transfered for further processing.
+This data is collected, saved for individual time periods and transferred for further processing.
 
 ## Requirements
 
