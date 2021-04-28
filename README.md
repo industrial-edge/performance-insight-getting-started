@@ -20,19 +20,20 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 
 ### Overview
 
-This document describes how to get the data from a PLC into the performance insight app. The data flow goes from the S7 connector app, going through the databus app and 
-being stored as time-series with the data service app.
-The performance insight app is extremely dependent on a properly configured data service app. The complete configuration is relevant for the proper data visualization and storage.
+This document describes how to get the data from a PLC into the Performance Insight app. The data flow goes from the S7 connector app, going through the databus app and 
+being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
 
-![overview](docs/graphics/Overview.PNG)
+
+<p align="center"><kbd><img src="docs/graphics/Overview.PNG" /></kbd></p>
+
 
 ### General task
 
 The example reads data from a PLC via the S7 Connector (OPC UA).
-The data is published on the IE Databus, where the Data Service can collect the needed shopfloor data.
-First an adapter for providing the datapoints must be assigned and configured.
-Afterwards the data structure can be modeled using assets and aspects (see data service "how to" for further explanation)
-This data is collected, saved for individual time period and transfered for further processing.
+The data is published on the IE Databus. The Data Service monitors the bus and collect the shopfloor data.
+First an adapter, providing datapoints must be assigned and configured.
+Afterwards the data structure can be modeled using assets and aspects. See [data-service-how-to](https://github.com/industrial-edge/data-service-configure-s7-adapter-to-collect-data) for further explanation.
+This data is collected, saved for individual time periods and transfered for further processing.
 
 ## Requirements
 
@@ -50,9 +51,9 @@ This data is collected, saved for individual time period and transfered for furt
 
 ### Used components
 
-- Industrial Edge Management (IEM) V1.1.14 (OS) V1.1.0.39
+- Industrial Edge Management (IEM) V1.1.14 (OS) V1.1.0-39
   - IE Databus V1.1.15
-  - IE Databus Configurator V1.1.24
+  - IE Dat.bus Configurator V1.1.24
   - S7 Connector V1.1.23
   - S7 Connector Configurator V1.1.24
   - Data Service V1.1.3
@@ -71,12 +72,13 @@ The used TIA Portal project can be found in the [miscellenous repository](https:
 
 You can find the further information about the following steps in the [docs](docs/Installation.md)
 - Configure PLC Connection (Databus, S7 Connector)
-- Configure Configure Data Service
+- Configure Data Service
+- Configure Performance Insight 
 
 ## Usage
 
 Once the Data Service app is configured and data is availalbe from a running PLC, process data can be collected.
-Performance insight visualizes giving data insights (KPIs, metrics, etc.) 
+Performance Insight visualizes this data and gives Iata insights (KPIs, metrics, etc.) 
 
 ## Documentation
 
