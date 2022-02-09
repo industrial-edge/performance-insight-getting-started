@@ -51,9 +51,9 @@ This data is collected, saved for individual time periods and transfered for fur
 
 ### Used components
 
-- Industrial Edge Management (IEM) V1.1.14 (OS) V1.1.0-39
+- Industrial Edge Management (IEM) V1.1.16 (OS) V1.1.0-39
   - IE Databus V1.1.15
-  - IE Dat.bus Configurator V1.1.24
+  - IE Databus Configurator V1.1.24
   - S7 Connector V1.1.23
   - S7 Connector Configurator V1.1.24
   - Data Service V1.1.3
