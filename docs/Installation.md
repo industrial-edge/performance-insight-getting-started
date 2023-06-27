@@ -27,7 +27,7 @@ In your IEM open the Databus and launch the configurator.
 Add a user with this topic:
 `"ie/#"`
 
-<p align="center"><kbd><img src="graphics/IE_DatabusAdduser.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/DatabusAdduser.PNG"/></kbd></p>
 
 <p align="center"><kbd><img src="graphics/IE_Databus.PNG" /></kbd></p>
 
