@@ -61,9 +61,9 @@ Hint: If an error screen appears saying "...unauthorized...", please restart the
 
 ## Configure the adapter
 
-On the left bar click the icon "Adapters" and choose the SIMATIC S7 Connector (MQTT).
+On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQTT).
 
-Click the edit icon on the right to open the adapter configuration.
+Click the edit icon on the right to open the connector configuration.
 
 <p align="center"><kbd><img src="graphics/Data_Service_Adapter.PNG" /></kbd></p>
 
