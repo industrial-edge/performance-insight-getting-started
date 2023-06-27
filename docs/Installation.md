@@ -2,7 +2,7 @@
 
 - [Configure PLC Connection](#configure-plc-connection)
   - [Configure Databus](#configure-databus)
-  - [Configure OPCUA Connector](#configure-OPCUA-connector)
+  - [Configure OPC UA Connector](#configure-OPC UA-connector)
 - [Configure Data Service](#configure-data-service)
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
@@ -13,12 +13,12 @@
 		
 # Configure PLC Connection
 
-To read data from the PLC and provide the data, we will use OPCUA Connector to establish connection with the PLC .
-The OPCUA Connector sends the data to the Databus, where the Data Service app can collect what is needed.
+To read data from the PLC and provide the data, we will use OPC UA Connector to establish connection with the PLC .
+The OPC UA Connector sends the data to the Databus, where the Data Service app can collect what is needed.
 In order to build this infrastructure, these apps must be configured properly:
 
 - Databus
-- OPCUA Connector
+- OPC UA Connector
 
 ## Configure Databus
 
@@ -29,17 +29,17 @@ Add a user with this topic:
 
 <p align="center"><kbd><img src="graphics/DatabusAdduser.PNG"/></kbd></p>
 
-<p align="center"><kbd><img src="graphics/IE_Databus.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Databusconfiguration.PNG" /></kbd></p>
 
 Deploy the configuration.
 
-## Configure S7 Connector
+## Configure OPC UA Connector
 
-In your IEM open the S7 Connector and launch the configurator.
+In your IEM open the OPC UA Connector and launch the configurator.
 
 Add a data source:
 
-<p align="center"><kbd><img src="graphics/S7_Connector_Data_Source.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Addsource.PNG" /></kbd></p>
 
 Add needed tags:
 
