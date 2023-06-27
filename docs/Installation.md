@@ -15,7 +15,7 @@
 
 To read data from the PLC and provide the data, we will use S7 Connector to establish connection with the PLC via OPC UA.
 The S7 Connector sends the data to the Databus, where the Data Service app can collect what is needed.
-In order to build this infrastructure, these apps must be configured properly:
+In order to build this infrastructure, these apps must be configured properly: jkeefdksghfuihf
 
 - Databus
 - S7 Connector
