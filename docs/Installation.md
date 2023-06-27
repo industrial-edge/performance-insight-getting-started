@@ -2,7 +2,7 @@
 
 - [Configure PLC Connection](#configure-plc-connection)
   - [Configure Databus](#configure-databus)
-  - [Configure S7 Connector](#configure-s7-connector)
+  - [Configure OPCUA Connector](#configure-OPCUA-connector)
 - [Configure Data Service](#configure-data-service)
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
