@@ -98,11 +98,11 @@ Hint: When opening the application for the first time a lincese message might po
 
 On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Create_Dashboard.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Assets dashboard.PNG" /></kbd></p>
 
-Insert a dashboard name and select the time frame that should be display per default for all signals
+Insert a dashboard name and select the time period that should be display per default for all signals
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Config_Dashboard.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Adddashboard.PNG" /></kbd></p>
 
 ## Configure widgets
 
