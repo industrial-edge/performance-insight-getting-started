@@ -70,9 +70,9 @@ In the settings for the connector click the edit icon on the right to open the c
 
 Add the missing entries for name (OPC UA Connector) username and password (again "edge"/"edge") and use databus settings should be deactivated and save it.
 
-<p align="center"><kbd><img src="graphics/Data_Service_Adapter_Config.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/opcuaadapterdetails.PNG" /></kbd></p>
 
-Hint: Sometimes the Data Service app must be restarted, to take over the adapter changes.
+Hint: Sometimes the Data Service app must be restarted, to take over the connector changes.
 
 ## Configure an asset with variables
 
