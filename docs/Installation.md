@@ -90,13 +90,13 @@ The required tank application variables are: tank level, tank temperature, produ
 
 In your IED Web UI open the app Performance Insight.
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Icon.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Logo.PNG" /></kbd></p>
 
 Hint: When opening the application for the first time a lincese message might pop up (no relationship to IE Hub). Just accept the message and start using the application
 
 ## Configure a dashboard
 
-On the main panel the dashboard overview will show the option to create a new dashboard (operating at the highest hirerchical level configured in data service)
+On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_Create_Dashboard.png" /></kbd></p>
 
