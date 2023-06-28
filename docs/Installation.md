@@ -122,7 +122,7 @@ In case of a Gauge Widget an additional dialog will appear with the display boun
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Gauge_Widget.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Quality insight.PNG" /></kbd></p>
 
 Several widgets have been configured as single value display (with Min, Avg and Max Values)
 
