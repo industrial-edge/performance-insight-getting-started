@@ -150,8 +150,8 @@ Additional values (also named KPIs) can be calculated out of the existing variab
 
 In order to calculate the production quality a KPI instance to be created 
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_KPI_Calculation.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
 
 This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_KPI_Gauge_Widget.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/editkpi.PNG" /></kbd></p>
