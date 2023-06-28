@@ -5,7 +5,7 @@
 - [Configure Performance Insight](#configure-performance-insight)
   - [Configure OPC UA Connector](#configure-OPC-UA-connector)
 - [Configure Data Service](#configure-data-service)
-  - [Configure the adapter](#configure-the-adapter)
+  - [Configure the connector](#configure-the-connector)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
     - [Configure a dashboard](#configure-a-dashboard)
@@ -64,7 +64,7 @@ Hint: If an error screen appears saying "...unauthorized...", please restart the
 
 On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQTT).
 
-Click the edit icon on the right to open the connector configuration.
+In the settings for the connector click the edit icon on the right to open the connector configuration.
 
 <p align="center"><kbd><img src="graphics/Data_Service_Adapter.PNG" /></kbd></p>
 
