@@ -134,7 +134,7 @@ Another configured widget is a diagram display for the actual tank level
 
 The last used widget on this application example is a Gantt diagram. The first step is to configure a status mapping
 
-<p align="center"><kbd><img src="graphics/performance-insight-gantt-status-mapping.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Machinestatus.PNG" /></kbd></p>
 
 Afterwards the Widget has to be added. The Gantt Overview will be displayed on the dashboard
 
