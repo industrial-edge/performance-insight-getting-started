@@ -108,13 +108,13 @@ Insert a dashboard name and select the time period that should be display per de
 
 When configuring a widget, Performance Insight offers the following types:
 
-<p align="center"><kbd><img src="graphics/widget types.PNG.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/widget types.PNG" /></kbd></p>
 
-The standard widget configuration has to define some details
+The standard widget configuration has to select some parameters
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Define_Details.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Parameter of INSIGHT.PNG" /></kbd></p>
 
-The following steps are: select parameters and define display options 
+The following steps are to define details define display options 
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_Select_Parameter.png" /></kbd></p>
 
