@@ -23,6 +23,8 @@ In order to build this infrastructure, these apps must be configured properly:
 - Data Service
 - Performance Insight
 
+ <p align="center"><kbd><img src="graphics/overview of performance insight.PNG"/></kbd></p>
+
 ## Configure Databus
 
 In your IEM open the Databus and launch the configurator.
