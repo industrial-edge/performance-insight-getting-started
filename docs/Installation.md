@@ -78,7 +78,7 @@ Hint: Sometimes the Data Service app must be restarted, to take over the connect
 
 On the left bar click the icon "Assets & Connectivity". For the "edge" asset you can add child assets as needed.
 
-Choose "Create first variable" or "Add variable" on the right side to add tags.
+Choose "Add variable" or "Multiple variables" on the right side to add tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
