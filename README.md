@@ -24,7 +24,7 @@ This document describes how to get the data from a PLC into the Performance Insi
 being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
 
 
-<p align="center"><kbd><img src="docs/graphics/Overview.PNG" /></kbd></p>
+<p align="center"><kbd><img src="docs/graphics/Performance.PNG" /></kbd></p>
 
 
 ### General task
