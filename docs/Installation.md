@@ -126,7 +126,7 @@ The first widget is a gauge display for the actual production quality (with its 
 
 Several widgets have been configured as single value display (with Min, Avg and Max Values)
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Value_Widget.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Tempfaultvalues.PNG" /></kbd></p>
 
 Another configured widget is a diagram display for the actual tank level
 
@@ -148,7 +148,7 @@ By clicking the detailed view icon, a detailed Gantt diagram will be shown (more
 
 Additional values (also named KPIs) can be calculated out of the existing variables.
 
-In order to calculate the production quality a KPI type has been defined
+In order to calculate the production quality a KPI instance to be created 
 
 <p align="center"><kbd><img src="graphics/Performance_Insight_KPI_Calculation.png" /></kbd></p>
 
