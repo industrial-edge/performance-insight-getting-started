@@ -60,7 +60,7 @@ In your IED Web UI open the app Data Service.
 
 Hint: If an error screen appears saying "...unauthorized...", please restart the Data Service app, wait a moment and try again to open it.
 
-## Configure the adapter
+## Configure the connector
 
 On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQTT).
 
