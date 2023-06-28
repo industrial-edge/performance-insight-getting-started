@@ -82,9 +82,9 @@ Choose "Create first variable" or "Add variable" on the right side to add tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
-<p align="center"><kbd><img src="graphics/Data_Service_Assets.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/assests1.PNG" /></kbd></p>
 
-<p align="center"><kbd><img src="graphics/Data_Service_Variable.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Addvariables.PNG" /></kbd></p>
 
 # Configure Performance Insight
 
