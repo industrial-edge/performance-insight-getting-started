@@ -114,15 +114,11 @@ The standard widget configuration has to select some parameters
 
 <p align="center"><kbd><img src="graphics/Parameter of INSIGHT.PNG" /></kbd></p>
 
-The following steps are to define details define display options 
-
-<p align="center"><kbd><img src="graphics/Performance_Insight_Select_Parameter.png" /></kbd></p>
-
-<p align="center"><kbd><img src="graphics/Performance_Insight_General_Display.png" /></kbd></p>
+The following steps are to define details and display options 
 
 In case of a Gauge Widget an additional dialog will appear with the display boundaries parametrization
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Gauge_Display.png" /></kbd></p>
+<p align="center"><kbd><img src="graphics/Detail Insight.PNG" /></kbd></p>
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
