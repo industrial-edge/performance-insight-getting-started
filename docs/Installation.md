@@ -23,7 +23,7 @@ In order to build this infrastructure, these apps must be configured properly:
 - Data Service
 - Performance Insight
 
- <p align="center"><kbd><img src="graphics/overview of Performance.PNG"/></kbd></p>
+ <p align="center"><kbd><img src="graphics/Performance.PNG"/></kbd></p>
 
 ## Configure Databus
 
