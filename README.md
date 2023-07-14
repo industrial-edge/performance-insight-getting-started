@@ -87,7 +87,6 @@ You can find further documentation and help in the following links
   - [Industrial Edge GitHub page]( https://github.com/industrial-edge)
   - [Industrial Edge documentation page]( https://docs.eu1.edge.siemens.cloud/index.html)
 ## Contribution
-
 Thank you for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section.
 Additionally everybody is free to propose any changes to this repository using Pull Requests.
 
