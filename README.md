@@ -24,7 +24,7 @@ This document describes how to get the data from a PLC into the Performance Insi
 being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
 
 
-<p align="center"><kbd><img src="docs/graphics/Overview.PNG" /></kbd></p>
+<p align="center"><kbd><img src="docs/graphics/performanceinsight.PNG" /></kbd></p>
 
 
 ### General task
@@ -81,12 +81,12 @@ Performance Insight visualizes this data and gives Iata insights (KPIs, metrics,
 ## Documentation
 
 You can find further documentation and help in the following links
-  - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
-  - [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
-  - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
-  
+  - [Industrial Edge Hub]( https://iehub.eu1.edge.siemens.cloud/#/documentation)
+  - [Industrial Edge Forum]( https://forum.mendix.com/link/space/industrial-edge)
+  - [Industrial Edge landing page]( https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
+  - [Industrial Edge GitHub page]( https://github.com/industrial-edge)
+  - [Industrial Edge documentation page]( https://docs.eu1.edge.siemens.cloud/index.html)
 ## Contribution
-
 Thank you for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section.
 Additionally everybody is free to propose any changes to this repository using Pull Requests.
 
