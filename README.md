@@ -53,14 +53,13 @@ This data is collected, saved for individual time periods and transfered for fur
 
 - Industrial Edge Management (IEM) V1.1.16 (OS) V1.1.0-39
   - Databus V2.2.0-3
-  - Databus Configurator V1.1.24
-  - S7 Connector V1.1.23
-  - S7 Connector Configurator V1.1.24
-  - Data Service V1.1.3
-  - Performance Insight V1.1.0
-- Industrial Edge Device V 1.1.0-32
-- TIA Portal V16
-- S7-PLCSIM Advanced V3.0 Upd 2
+  - Databus Configurator V2.3.1-4
+  - OPC UA Connector V2.0.1-0
+  - IIH Essentials V1.10
+  - Performance Insight V1.16.1
+- Industrial Edge Device V 1.16.1-1-a
+- TIA Portal V18
+- S7-PLCSIM Advanced V5.0
 
 ### TIA Project
 
@@ -69,13 +68,13 @@ The used TIA Portal project can be found in the [miscellenous repository](https:
 ## Configuration steps
 
 You can find the further information about the following steps in the [docs](docs/Installation.md)
-- Configure PLC Connection (Databus, S7 Connector)
-- Configure Data Service
+- Configure PLC Connection (Databus, OPC UA Connector)
+- Configure   IIH Essentials
 - Configure Performance Insight
 
 ## Usage
 
-Once the Data Service app is configured and data is availalbe from a running PLC, process data can be collected.
+Once the IIH Essentials app is configured and data is availalbe from a running PLC, process data can be collected.
 Performance Insight visualizes this data and gives Iata insights (KPIs, metrics, etc.) 
 
 ## Documentation
