@@ -51,7 +51,7 @@ This data is collected, saved for individual time periods and transfered for fur
 
 ### Used components
 
-- Industrial Edge Management (IEM) V1.1.16 (OS) V1.1.0-39
+- Industrial Edge Management (IEM) V1.14.10 (OS) V1.5.2-4
   - Databus V2.2.0-3
   - Databus Configurator V2.3.1-4
   - OPC UA Connector V2.0.1-0
@@ -69,7 +69,7 @@ The used TIA Portal project can be found in the [miscellenous repository](https:
 
 You can find the further information about the following steps in the [docs](docs/Installation.md)
 - Configure PLC Connection (Databus, OPC UA Connector)
-- Configure   IIH Essentials
+- Configure IIH Essentials
 - Configure Performance Insight
 
 ## Usage
