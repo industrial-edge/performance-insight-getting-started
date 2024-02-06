@@ -20,8 +20,8 @@ This example shows how to use the Industrial Edge App "Performance Insight" to v
 
 ### Overview
 
-This document describes how to get the data from a PLC into the Performance Insight app. The data flow goes from the S7 connector app, going through the databus app and 
-being stored as time-series with the data service app. The Performance Insight app is extremely dependent on a properly configured data service app.
+This document describes how to get the data from a PLC into the Performance Insight app. The data flow goes from the OPC UA Connector app, going through the databus app and 
+being stored as time-series with the IIH Essentials app. The Performance Insight app is extremely dependent on a properly configured IIH Essentials app.
 
 
 <p align="center"><kbd><img src="docs/graphics/performanceinsight.PNG" /></kbd></p>
@@ -29,8 +29,8 @@ being stored as time-series with the data service app. The Performance Insight a
 
 ### General task
 
-The example reads data from a PLC via the S7 Connector (OPC UA).
-The data is published on the IE Databus. The Data Service monitors the bus and collect the shopfloor data.
+The example reads data from a PLC via the OPC UA connector.
+The data is published on the Databus. The Data Service monitors the bus and collect the shopfloor data.
 First an adapter, providing datapoints must be assigned and configured.
 Afterwards the data structure can be modeled using assets and aspects. See [data-service-how-to](https://github.com/industrial-edge/data-service-configure-s7-adapter-to-collect-data) for further explanation.
 This data is collected, saved for individual time periods and transfered for further processing (using Performance Insight).
@@ -41,9 +41,9 @@ This data is collected, saved for individual time periods and transfered for fur
 
 - Access to an Industrial Edge Management System (IEM)
 - Onboarded Industial Edge Device on IEM
-- Installed System Configurators for Databus and S7 Connector
-- Installed System Apps Databus and S7 Connector
-- Installed Data Service
+- Installed System Configurators for Databus and OPC UA Connector
+- Installed System Apps Databus OPC UA Connector
+- Installed IIH Essentials
 - Installed Performance Insight
 - Edge device is connected to PLC
 - TIA portal project loaded on PLC (e.g. for filling application)
@@ -52,8 +52,8 @@ This data is collected, saved for individual time periods and transfered for fur
 ### Used components
 
 - Industrial Edge Management (IEM) V1.1.16 (OS) V1.1.0-39
-  - IE Databus V1.1.15
-  - IE Databus Configurator V1.1.24
+  - Databus V2.2.0-3
+  - Databus Configurator V1.1.24
   - S7 Connector V1.1.23
   - S7 Connector Configurator V1.1.24
   - Data Service V1.1.3
