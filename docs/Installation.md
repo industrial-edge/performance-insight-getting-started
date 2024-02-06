@@ -60,9 +60,9 @@ Deploy and start the project.
 
 # Configure IIH Essentials
 
-In your IED Web UI open the app Data Service.
+In your IED Web UI open the app IIH Essentials.
 
-Hint: If an error screen appears saying "...unauthorized...", please restart the Data Service app, wait a moment and try again to open it.
+Hint: If an error screen appears saying "...unauthorized...", please restart the IIH Essentials app, wait a moment and try again to open it.
 
 ## Configure the connector
 
