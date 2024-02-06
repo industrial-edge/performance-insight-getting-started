@@ -4,7 +4,7 @@
   - [Configure Databus](#configure-databus)
 - [Configure Performance Insight](#configure-performance-insight)
   - [Configure OPC UA Connector](#configure-OPC-UA-connector)
-- [Configure Data Service](#configure-data-service)
+- [Configure IIH Essentials](#configure-IIH-Essentials)
   - [Configure the connector](#configure-the-connector)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
@@ -58,7 +58,7 @@ Hint: Username and password should be the same for all system apps, e.g. "edge" 
 
 Deploy and start the project.
 
-# Configure Data Service
+# Configure IIH Essentials
 
 In your IED Web UI open the app Data Service.
 
