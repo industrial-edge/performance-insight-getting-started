@@ -86,7 +86,7 @@ Choose "Add variable" or "Multiple variables" on the right side to add tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
-<p align="center"><kbd><img src="graphics/assestsandconnect.png"/></kbd></p>
+<p align="center"><kbd><img src="graphics/iihessentialsPIvariables.PNG"/></kbd></p>
 
 <p align="center"><kbd><img src="graphics/Addvariables.PNG" /></kbd></p>
 
