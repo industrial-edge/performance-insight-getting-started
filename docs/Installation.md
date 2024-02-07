@@ -70,7 +70,7 @@ On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQT
 
 In the settings for the connector click the edit icon on the right to open the connector configuration.
 
-<p align="center"><kbd><img src="graphics/opcuaconnector.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/IIHessentialsPIOPCUA.PNG" /></kbd></p>
 
 Add the missing entries for name (OPC UA Connector) username and password (again "edge"/"edge") and use databus settings should be deactivated and save it.
 
