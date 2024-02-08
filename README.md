@@ -57,6 +57,8 @@ This data is collected, saved for individual time periods and transfered for fur
   - OPC UA Connector V2.0.1-0
   - IIH Essentials V1.10
   - Performance Insight V1.16.1
+  - Registry Service V1.9.0-0
+  - Common Import Converter V2.1.0-2
 - Industrial Edge Device V 1.16.1-1-a
 - TIA Portal V18
 - S7-PLCSIM Advanced V5.0
