@@ -20,7 +20,7 @@ In order to build this infrastructure, these apps must be configured properly:
 
 - OPC UA Connector
 - Databus
-- Data Service
+- IIH Essentials
 - Performance Insight
 
  <p align="center"><kbd><img src="graphics/performanceinsight.PNG"/></kbd></p>
