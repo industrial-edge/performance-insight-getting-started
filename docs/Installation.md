@@ -48,7 +48,9 @@ Add a data source:
 
 Add needed tags:
 
-<p align="center"><kbd><img src="graphics/OPCUA_ADDTAGS.PNG" /></kbd></p>
+GDB.process.numberproduced, GDB.numberFaulty, DB_3_Simulation.statTankLevel, GDB.signals.tankSignals.actTemperature.
+
+<p align="center"><kbd><img src="graphics/addopcuatagspi.PNG" /></kbd></p>
 
 Edit the settings:
 
