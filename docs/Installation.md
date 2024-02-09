@@ -4,7 +4,7 @@
   - [Configure Databus](#configure-databus)
 - [Configure Performance Insight](#configure-performance-insight)
   - [Configure OPC UA Connector](#configure-OPC-UA-connector)
-- [Configure Data Service](#configure-data-service)
+- [Configure IIH Essentials](#configure-IIH-Essentials)
   - [Configure the connector](#configure-the-connector)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
@@ -20,7 +20,7 @@ In order to build this infrastructure, these apps must be configured properly:
 
 - OPC UA Connector
 - Databus
-- Data Service
+- IIH Essentials
 - Performance Insight
 
  <p align="center"><kbd><img src="graphics/performanceinsight.PNG"/></kbd></p>
@@ -48,7 +48,9 @@ Add a data source:
 
 Add needed tags:
 
-<p align="center"><kbd><img src="graphics/OPCUA_ADDTAGS.PNG" /></kbd></p>
+GDB.process.numberproduced, GDB.numberFaulty, DB_3_Simulation.statTankLevel, GDB.signals.tankSignals.actTemperature.
+
+<p align="center"><kbd><img src="graphics/addopcuatagspi.PNG" /></kbd></p>
 
 Edit the settings:
 
@@ -58,11 +60,11 @@ Hint: Username and password should be the same for all system apps, e.g. "edge" 
 
 Deploy and start the project.
 
-# Configure Data Service
+# Configure IIH Essentials
 
-In your IED Web UI open the app Data Service.
+In your IED Web UI open the app IIH Essentials.
 
-Hint: If an error screen appears saying "...unauthorized...", please restart the Data Service app, wait a moment and try again to open it.
+Hint: If an error screen appears saying "...unauthorized...", please restart the IIH Essentials app, wait a moment and try again to open it.
 
 ## Configure the connector
 
@@ -70,11 +72,11 @@ On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQT
 
 In the settings for the connector click the edit icon on the right to open the connector configuration.
 
-<p align="center"><kbd><img src="graphics/opcuaconnector.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/IIHessentialsPIOPCUA.PNG" /></kbd></p>
 
 Add the missing entries for name (OPC UA Connector) username and password (again "edge"/"edge") and use databus settings should be deactivated and save it.
 
-<p align="center"><kbd><img src="graphics/opcuaadapterdetails.PNG" /></kbd></p>
+<p align="center"><kbd><img src="graphics/IIHessentialsPI.PNG" /></kbd></p>
 
 Hint: Sometimes the Data Service app must be restarted, to take over the connector changes.
 
@@ -86,7 +88,7 @@ Choose "Add variable" or "Multiple variables" on the right side to add tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
-<p align="center"><kbd><img src="graphics/assestsandconnect.png"/></kbd></p>
+<p align="center"><kbd><img src="graphics/iihessentialsPIvariables.PNG"/></kbd></p>
 
 <p align="center"><kbd><img src="graphics/Addvariables.PNG" /></kbd></p>
 
