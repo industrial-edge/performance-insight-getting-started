@@ -40,8 +40,9 @@ Deploy the configuration.
 
 ## Configure OPC UA Connector
 
-In your IEM open the OPC UA Connector and launch the configurator.
-
+There are two methods to configure the OPC UA Connector one in the IEM and the other one directly on the Industrial Edge Device.
+Both methodes use the Common Configurator 
+First open the Common Configurator
 Add a data source:
 
 <p align="center"><kbd><img src="graphics/Addsource.PNG" /></kbd></p>
@@ -64,33 +65,29 @@ Deploy and start the project.
 
 In your IED Web UI open the app IIH Essentials.
 
-Hint: If an error screen appears saying "...unauthorized...", please restart the IIH Essentials app, wait a moment and try again to open it.
 
 ## Configure the connector
+On the left bar click the icon "Settings" and set the Databus settings: username and password (again "edge"/"edge")
 
-On the left bar click the icon "Connectors" and choose the OPC UA Connector (MQTT).
+<p align="center"><kbd><img src="graphics/IIH_Essential_Databus.PNG" /></kbd></p>
+
+On the left bar click the icon "Connectors" and choose the OPC UA Connector.
 
 In the settings for the connector click the edit icon on the right to open the connector configuration.
 
 <p align="center"><kbd><img src="graphics/IIHessentialsPIOPCUA.PNG" /></kbd></p>
 
-Add the missing entries for name (OPC UA Connector) username and password (again "edge"/"edge") and use databus settings should be deactivated and save it.
-
-<p align="center"><kbd><img src="graphics/IIHessentialsPI.PNG" /></kbd></p>
-
-Hint: Sometimes the Data Service app must be restarted, to take over the connector changes.
 
 ## Configure an asset with variables
 
-On the left bar click the icon "Assets & Connectivity". For the "edge" asset you can add child assets as needed.
+On the left bar click the icon "Manage data". For the "edge" asset you can add child assets as needed.
 
-Choose "Add variable" or "Multiple variables" on the right side to add tags.
+Choose "Add attribute" right and set the "Source Type" to "Connecter", afterwards it is possible to insert the required tags.
 
 The required tank application variables are: tank level, tank temperature, produced bottles and faulty bottles.
 
 <p align="center"><kbd><img src="graphics/iihessentialsPIvariables.PNG"/></kbd></p>
 
-<p align="center"><kbd><img src="graphics/Addvariables.PNG" /></kbd></p>
 
 # Configure Performance Insight
 
