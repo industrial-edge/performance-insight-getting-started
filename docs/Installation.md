@@ -1,4 +1,4 @@
-Configuration
+# Configuration
 
 - [Configure PLC Connection](#configure-plc-connection)
   - [Configure Databus](#configure-databus)
