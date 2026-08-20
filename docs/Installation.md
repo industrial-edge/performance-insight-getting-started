@@ -8,9 +8,10 @@
   - [Configure the connector](#configure-the-connector)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
+ 	- [Configure KPIs](#configure-KPIs)
     - [Configure a dashboard](#configure-a-dashboard)
     - [Configure widgets](#configure-widgets)
-    - [Configure KPIs](#configure-KPIs)
+    
 		
 # Configure PLC Connection
 
@@ -97,6 +98,17 @@ In your IED Web UI open the app Performance Insight.
 
 Hint: When opening the application for the first time a lincese message might pop up (no relationship to IE Hub). Just accept the message and start using the application
 
+## Configure KPIs
+
+Additional values (also named KPIs) can be calculated out of the existing variables.
+
+In order to calculate the production quality a KPI instance to be created 
+
+<p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
+
+This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
+
+<p align="center"><kbd><img src="graphics/editkpi.PNG" /></kbd></p>
 ## Configure a dashboard
 
 On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
@@ -119,11 +131,7 @@ The standard widget configuration has to select some parameters
 
 ![](/docs/graphics/KPI_parameters.png)
 
-The following steps are to define details and display options 
-
-In case of a Gauge Widget an additional dialog will appear with the display boundaries parametrization
-
-<p align="center"><kbd><img src="graphics/Detail Insight.PNG" /></kbd></p>
+Change to "Last" 
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
@@ -149,14 +157,4 @@ By clicking the detailed view icon, a detailed Gantt diagram will be shown (more
 
 <p align="center"><kbd><img src="graphics/performance-insight-gantt-detail-view.png" /></kbd></p>
 
-## Configure KPIs
 
-Additional values (also named KPIs) can be calculated out of the existing variables.
-
-In order to calculate the production quality a KPI instance to be created 
-
-<p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
-
-This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
-
-<p align="center"><kbd><img src="graphics/editkpi.PNG" /></kbd></p>
