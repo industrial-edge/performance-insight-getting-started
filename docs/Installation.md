@@ -1,4 +1,4 @@
-<img width="722" height="868" alt="image" src="https://github.com/user-attachments/assets/bd6318b5-58cf-40a6-8dd3-1cad14a8cc6e" /># Configuration
+Configuration
 
 - [Configure PLC Connection](#configure-plc-connection)
   - [Configure Databus](#configure-databus)
