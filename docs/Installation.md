@@ -102,13 +102,16 @@ Hint: When opening the application for the first time a lincese message might po
 
 Additional values (also named KPIs) can be calculated out of the existing variables.
 
-In order to calculate the production quality a KPI instance to be created 
+In order to calculate the production quality a KPI instance to be created.
+
+To access the KPI instance screen,on the plant tab access the Parameter menu on the right hand side
+![](/docs/graphics/KPI_instance.png)
+
+Here you can manage the existing instances or create new ones (Note: this isn't the only way to create instances, they can be created when building the dashboard and its widgets)
 
 <p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
 
-This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
 
-<p align="center"><kbd><img src="graphics/editkpi.PNG" /></kbd></p>
 ## Configure a dashboard
 
 On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
