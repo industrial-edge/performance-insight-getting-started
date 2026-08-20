@@ -1,4 +1,4 @@
-# Configuration
+<img width="722" height="868" alt="image" src="https://github.com/user-attachments/assets/bd6318b5-58cf-40a6-8dd3-1cad14a8cc6e" /># Configuration
 
 - [Configure PLC Connection](#configure-plc-connection)
   - [Configure Databus](#configure-databus)
@@ -101,21 +101,23 @@ Hint: When opening the application for the first time a lincese message might po
 
 On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
 
-<p align="center"><kbd><img src="graphics/Assets dashboard.PNG" /></kbd></p>
+![](/docs/graphics/add_dashboard.png)
 
 Insert a dashboard name and select the time period that should be display per default for all signals
 
-<p align="center"><kbd><img src="graphics/Adddashboard.PNG" /></kbd></p>
+![](/docs/graphics/create_dashboard.png)
 
 ## Configure widgets
 
 When configuring a widget, Performance Insight offers the following types:
 
-<p align="center"><kbd><img src="graphics/widget types.PNG" /></kbd></p>
+![](/docs/graphics/select_widget.png)
 
 The standard widget configuration has to select some parameters
 
-<p align="center"><kbd><img src="graphics/Parameter of INSIGHT.PNG" /></kbd></p>
+![](/docs/graphics/create_new_KPI.png)
+
+![](/docs/graphics/KPI_parameters.png)
 
 The following steps are to define details and display options 
 
