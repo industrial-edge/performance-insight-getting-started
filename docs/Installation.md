@@ -161,20 +161,26 @@ For the graphic widgets, the process is similar to the gauge:
 
 ![](/docs/graphics/details_temperature.png)
 
-Another configured widget is a diagram display for the actual tank level
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Diagram_Widget.png" /></kbd></p>
+The last used widget on this application example is a Gantt diagram. To create this diagram, firstly, a new status map has to be created:
 
-The last used widget on this application example is a Gantt diagram. The first step is to configure a status mapping
+.![](/docs/graphics/process_state_status_map.png)
 
-<p align="center"><kbd><img src="graphics/Machinestatus.PNG" /></kbd></p>
+![](/docs/graphics/process_state.png)
+
+Once configured the status map, go back to you user.custom dashboard and add a new widget:
+- Select the Gantt option and give it a name
+- Select as a parameter "machineStateOEE"
+- Select the newly created status map
+
+![](/docs/graphics/gantt_details.png)
 
 Afterwards the Widget has to be added. The Gantt Overview will be displayed on the dashboard
 
-<p align="center"><kbd><img src="graphics/performance-insight-gantt-overview.png" /></kbd></p>
+![](/docs/graphics/gantt.png)
 
 By clicking the detailed view icon, a detailed Gantt diagram will be shown (more visible data)
 
-<p align="center"><kbd><img src="graphics/performance-insight-gantt-detail-view.png" /></kbd></p>
+![](/docs/graphics/detailed_gantt.png)
 
 
