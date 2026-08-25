@@ -138,11 +138,28 @@ Change to "Last"
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
-<p align="center"><kbd><img src="graphics/Quality insight.PNG" /></kbd></p>
+![](/docs/graphics/gauge_widget.png)
 
-Several widgets have been configured as single value display (with Min, Avg and Max Values)
+Several widgets have been configured as single value display (with Min, Avg and Max Values). 
 
 <p align="center"><kbd><img src="graphics/Tempfaultvalues.PNG" /></kbd></p>
+
+To create these widgets, the process is the following: 
+
+![](/docs/graphics/faulty_bottles.png)
+
+- Select the numberFaulty parameter and click on Edit to change to "Last" 
+![](/docs/graphics/parameters_faulty_bottles.png)
+
+- Change the details to match those on the image:
+![](/docs/graphics/details_faulty_bottles.png)
+
+For the graphic widgets, the process is similar to the gauge: 
+- Select the diagram widget and give it a name
+- Select the parameter to graph and change to "Last"
+- Change the calculation period to 1 minute and name the y axis (include limits if desired)
+
+![](/docs/graphics/details_temperature.png)
 
 Another configured widget is a diagram display for the actual tank level
 
