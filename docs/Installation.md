@@ -8,9 +8,10 @@
   - [Configure the connector](#configure-the-connector)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
+ 	- [Configure KPIs](#configure-KPIs)
     - [Configure a dashboard](#configure-a-dashboard)
     - [Configure widgets](#configure-widgets)
-    - [Configure KPIs](#configure-KPIs)
+    
 		
 # Configure PLC Connection
 
@@ -97,64 +98,89 @@ In your IED Web UI open the app Performance Insight.
 
 Hint: When opening the application for the first time a lincese message might pop up (no relationship to IE Hub). Just accept the message and start using the application
 
+## Configure KPIs
+
+Additional values (also named KPIs) can be calculated out of the existing variables.
+
+In order to calculate the production quality a KPI instance to be created.
+
+To access the KPI instance screen,on the plant tab access the Parameter menu on the right hand side
+![](/docs/graphics/KPI_instance.png)
+
+Here you can manage the existing instances or create new ones (Note: this isn't the only way to create instances, they can be created when building the dashboard and its widgets)
+
+<p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
+
+
 ## Configure a dashboard
 
 On the my plant panel the dashboard overview will show the option to Add a new dashboard (operating at the highest hirerchical level configured in data service)
 
-<p align="center"><kbd><img src="graphics/Assets dashboard.PNG" /></kbd></p>
+![](/docs/graphics/add_dashboard.png)
 
 Insert a dashboard name and select the time period that should be display per default for all signals
 
-<p align="center"><kbd><img src="graphics/Adddashboard.PNG" /></kbd></p>
+![](/docs/graphics/create_dashboard.png)
 
 ## Configure widgets
 
 When configuring a widget, Performance Insight offers the following types:
 
-<p align="center"><kbd><img src="graphics/widget types.PNG" /></kbd></p>
+![](/docs/graphics/select_widget.png)
 
 The standard widget configuration has to select some parameters
 
-<p align="center"><kbd><img src="graphics/Parameter of INSIGHT.PNG" /></kbd></p>
+![](/docs/graphics/create_new_KPI.png)
 
-The following steps are to define details and display options 
+![](/docs/graphics/KPI_parameters.png)
 
-In case of a Gauge Widget an additional dialog will appear with the display boundaries parametrization
-
-<p align="center"><kbd><img src="graphics/Detail Insight.PNG" /></kbd></p>
+Change to "Last" 
 
 The first widget is a gauge display for the actual production quality (with its respective warning and alarming levels)
 
-<p align="center"><kbd><img src="graphics/Quality insight.PNG" /></kbd></p>
+![](/docs/graphics/gauge_widget.png)
 
-Several widgets have been configured as single value display (with Min, Avg and Max Values)
+Several widgets have been configured as single value display (with Min, Avg and Max Values). 
 
 <p align="center"><kbd><img src="graphics/Tempfaultvalues.PNG" /></kbd></p>
 
-Another configured widget is a diagram display for the actual tank level
+To create these widgets, the process is the following: 
 
-<p align="center"><kbd><img src="graphics/Performance_Insight_Diagram_Widget.png" /></kbd></p>
+![](/docs/graphics/faulty_bottles.png)
 
-The last used widget on this application example is a Gantt diagram. The first step is to configure a status mapping
+- Select the numberFaulty parameter and click on Edit to change to "Last" 
+![](/docs/graphics/parameters_faulty_bottles.png)
 
-<p align="center"><kbd><img src="graphics/Machinestatus.PNG" /></kbd></p>
+- Change the details to match those on the image:
+![](/docs/graphics/details_faulty_bottles.png)
+
+For the graphic widgets, the process is similar to the gauge: 
+- Select the diagram widget and give it a name
+- Select the parameter to graph and change to "Last"
+- Change the calculation period to 1 minute and name the y axis (include limits if desired)
+
+![](/docs/graphics/details_temperature.png)
+
+
+The last used widget on this application example is a Gantt diagram. To create this diagram, firstly, a new status map has to be created:
+
+.![](/docs/graphics/process_state_status_map.png)
+
+![](/docs/graphics/process_state.png)
+
+Once configured the status map, go back to you user.custom dashboard and add a new widget:
+- Select the Gantt option and give it a name
+- Select as a parameter "machineStateOEE"
+- Select the newly created status map
+
+![](/docs/graphics/gantt_details.png)
 
 Afterwards the Widget has to be added. The Gantt Overview will be displayed on the dashboard
 
-<p align="center"><kbd><img src="graphics/performance-insight-gantt-overview.png" /></kbd></p>
+![](/docs/graphics/gantt.png)
 
 By clicking the detailed view icon, a detailed Gantt diagram will be shown (more visible data)
 
-<p align="center"><kbd><img src="graphics/performance-insight-gantt-detail-view.png" /></kbd></p>
+![](/docs/graphics/detailed_gantt.png)
 
-## Configure KPIs
 
-Additional values (also named KPIs) can be calculated out of the existing variables.
-
-In order to calculate the production quality a KPI instance to be created 
-
-<p align="center"><kbd><img src="graphics/KPI instance.PNG" /></kbd></p>
-
-This quality production KPI has been displayed using a gauge widget (frist widget mentioned). KPI has been instanced within a widget
-
-<p align="center"><kbd><img src="graphics/editkpi.PNG" /></kbd></p>
