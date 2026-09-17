@@ -52,7 +52,7 @@ Add needed tags:
 
 Edit the settings:
 
-<kbd><img src="/docs/graphics/OPCUASETTINGS.PNG" width="700"></kbd>
+<kbd><img src="/docs/graphics/OPCUASETTINGS.PNG" width="600"></kbd>
 
 > Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
@@ -186,4 +186,4 @@ Create the widget.
 
 By clicking on the detailed view icon of the widget, a detailed Gantt diagram will be shown (more visible data).
 
-<kbd><img src="/docs/graphics/detailed_gantt.png" width="600"></kbd>
+<kbd><img src="/docs/graphics/detailed_gantt.png"></kbd>
