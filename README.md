@@ -39,23 +39,20 @@ This data is collected, saved for individual time periods and transfered for fur
 
 - Access to an Industrial Edge Management System (IEM)
 - Onboarded Industial Edge Device on IEM
-- Installed System Configurators for Databus and OPC UA Connector
-- Installed System Apps Databus OPC UA Connector
-- Installed IIH Essentials
-- Installed Performance Insight
-- Edge device is connected to PLC
+- Industrial Edge device is connected to PLC
 - TIA portal project loaded on PLC (e.g. for filling application)
-- HTML5-capable Internet browser
+- HTML5-capable Internet browser (e.g. Google Chrome)
 
 ### Used components
 
-- Industrial Edge Management (IEM) V1.14.9
-  - Databus V3.2.1
-  - OPC UA Connector V2.4.2
-  - IIH Essentials V2.2.1
-  - Performance Insight V1.21.1
-  - optional Common Configurator V2.2.1
-- Industrial Edge Device V3.0.0-51
+- Industrial Edge Management (IEM) V1.15.18
+- Industrial Edge Device V3.2.0-17
+- IED Applications:
+  - Databus V3.4.0
+  - OPC UA Connector V2.4.3
+  - IIH Essentials V2.6.0
+  - Performance Insight V1.26.0
+  - (optional) Common Configurator V2.5.0
 - TIA Portal V19
 
 ### TIA Project
