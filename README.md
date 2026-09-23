@@ -71,6 +71,8 @@ You can find the further information about the following steps in the [docs](doc
 Once the IIH Essentials app is configured and data is availalbe from a running PLC, process data can be collected.
 Performance Insight visualizes this data and gives Iata insights (KPIs, metrics, etc.) 
 
+![](docs/graphics/gauge_widget.png)
+
 ## Documentation
 
 You can find further documentation and help in the following links
