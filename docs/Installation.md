@@ -131,6 +131,7 @@ For the Gauge widget you need to select one parameter. In this case select 'New 
 Configure the KPI instance accordingly and create it.
 
 <kbd><img src="/docs/graphics/KPI_parameters.png" width="600"></kbd>
+<kbd><img src="/docs/graphics/gauge-limits.png" width="600"></kbd>
 
 Now the KPI instance can be used within the widget. Change the aggregation type of this parameter to 'Last'.
 
