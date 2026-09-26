@@ -122,7 +122,7 @@ When configuring a widget, Performance Insight offers several types.
 
 Here we create a Gauge widget for the actual production quality (with its respective warning and alarming levels).
 
-<kbd><img src="/docs/graphics/select_widget.png" width="600"></kbd>
+<kbd><img src="/docs/graphics/widget-gauge.png" width="600"></kbd>
 
 For the Gauge widget you need to select one parameter. In this case select 'New KPI instance' to create an instance directly.
 
