@@ -174,7 +174,7 @@ Therefore, you need to create a dedicated status mapping that can be later used 
 
 <kbd><img src="/docs/graphics/faulty_bottles_status_map.png" width="600"></kbd>
 
-<kbd><img src="/docs/graphics/process_state.png" width="600"></kbd>
+<kbd><img src="/docs/graphics/process-state.png" width="600"></kbd>
 
 Now you can create the Gantt widget. Go to the menu 'My Plant' and open the dedicated user-defined dashboard to add a new widet.
 - Select the Gantt option and give it a name
