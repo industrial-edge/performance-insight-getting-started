@@ -73,6 +73,8 @@ Performance Insight visualizes this data and gives Iata insights (KPIs, metrics,
 
 ![](docs/graphics/gauge_widget.png)
 
+![](docs/graphics/Tempfaultvalues.PNG.png)
+
 ## Documentation
 
 You can find further documentation and help in the following links
