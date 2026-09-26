@@ -181,7 +181,7 @@ Now you can create the Gantt widget. Go to the menu 'My Plant' and open the dedi
 - Select the parameter (here machine state)
 - Select the newly created status mapping
 
-<kbd><img src="/docs/graphics/gantt_details.png" width="600"></kbd>
+<kbd><img src="/docs/graphics/gantt-details.png" width="600"></kbd>
 
 Create the widget.
 
