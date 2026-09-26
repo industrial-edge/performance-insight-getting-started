@@ -189,4 +189,4 @@ Create the widget.
 
 By clicking on the detailed view icon of the widget, a detailed Gantt diagram will be shown (more visible data).
 
-<kbd><img src="/docs/graphics/detailed_gantt.png"></kbd>
+<kbd><img src="/docs/graphics/detailed-gantt.png"></kbd>
